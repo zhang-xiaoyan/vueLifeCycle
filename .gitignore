@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+dist
+dist/*
+npm-debug.log
+yarn.lock
+.idea/
+.idea/vcs.xml
+.idea/workspace.xml
+*.project
+debug.log
+.vscode/
