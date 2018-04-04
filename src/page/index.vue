@@ -1,6 +1,6 @@
 <template>
-	<section>
-		<div>首页</div>
+	<section class="index_wrap">
+		<div class="bg1">测试vConsole</div>
 	</section>
 </template>
 <script>
@@ -22,5 +22,15 @@
 	}
 </script>
 <style lang="less" scoped>
-
+.index_wrap{
+	.bg1{
+		height: 0.4rem;
+		line-height: 0.4rem;
+		width: 2rem;
+		background: green;
+		color: white;
+		text-align: center;
+		margin: 0.2rem auto;
+	}
+}
 </style>

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/zhang-xiaoyan/vueLifeCycle#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "vconsole": "^3.1.0",
     "vue": "^2.5.16",
     "vue-router": "^2.8.1",
     "vuex": "^2.1.1"
