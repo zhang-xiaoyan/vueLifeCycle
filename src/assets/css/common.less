@@ -1,0 +1,29 @@
+@mainColor: rgba(43,132,255,1);
+@tagColor: #E3393C;
+@grey: rgba(137,137,137,1);
+
+.afterLine(@color){
+	content: '';
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    background-color: @color;
+    height: 1px;
+    left: -0.1rem;
+    right: 0;
+    bottom: 0;
+    transform: scaleY(.5);
+}
+.ellipsis{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.bg_opacity_mask{
+	z-index: 998;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
