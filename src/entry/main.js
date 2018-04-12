@@ -8,7 +8,7 @@ import filter from '../common/filter.js'
 import routes from '../route/lazyRouter.js'
 import Fastclick from 'fastclick'
 import utils from '../common/store'
-require('../common/vconsole.js');
+require('../common/vconsole.js')
 
 document.addEventListener('DOMContentLoaded', function() {
   Fastclick.attach(document.body);
